@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: travel-canal
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+  rabbitmq:
+    addresses: 192.168.237.129:5672
+    username: root
+    password: root
+    virtual-host: /
+
+
+server:
+  port: 9095
+canal:
+  server: 192.168.237.128:11111
+  destination: example
+  user-name: canal
+  password: Canal_2020
+logging:
+  level:
+    root: info
+    top:
+      javatool:
+        canal:
+          client:
+            client:
+              AbstractCanalClient: error
