@@ -23,8 +23,9 @@ export function giveLike(body) {
 
 // 回答问题
 export function answer(body) {
-  return request.post('/qa/qaQuestions/answer', body)
+  return request.post('/qa/qaAnswer/addAnswer', body)
 }
+
 
 //我的问答
 export function getMeAnswer(params){

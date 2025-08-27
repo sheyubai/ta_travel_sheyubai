@@ -7,6 +7,7 @@ import cn.wolfcode.wolf2w.common.core.domain.R;
 import cn.wolfcode.wolf2w.common.security.annotation.InnerAuth;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,15 +15,17 @@ import java.util.List;
 
 /**
  * 问题回答 Controller
- * 
+ *
  * @author yang
  * @date 2025-08-12
  */
+@Slf4j
 @RestController
-@RequestMapping("answer")
+@RequestMapping("qaAnswer")
 public class AnswerController {
     @Autowired
     private IAnswerService answerService;
+
     /**
      * 问题回答详情
      */
@@ -31,6 +34,7 @@ public class AnswerController {
         Answer answer = answerService.getById(id);
         return R.ok(answer);
     }
+
     /**
      * 问题回答 列表
      */
@@ -40,9 +44,14 @@ public class AnswerController {
         return R.ok(page);
     }
 
+    @PostMapping("/addAnswer")
+    public R<?> addAnswer(@RequestBody Answer answer) {
+        answerService.addAnswer(answer);
+        return R.ok();
+    }
+
     @PostMapping("/like/{id}")
     public R<?> like(@PathVariable("id") Long id) {
-
 
 
         return R.ok("1111");
@@ -57,6 +66,7 @@ public class AnswerController {
     public R<List<Answer>> feignList() {
         return R.ok(answerService.list());
     }
+
     @InnerAuth
     @GetMapping("/feign/{id}")
     public R<Answer> feignGet(@PathVariable Long id) {

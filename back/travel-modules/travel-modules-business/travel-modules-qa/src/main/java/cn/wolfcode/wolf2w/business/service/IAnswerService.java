@@ -23,4 +23,6 @@ public interface IAnswerService extends IService<Answer>{
     IPage<Answer> queryPage(AnswerQuery qo);
 
     List<Answer> getByQuestionId(Long id);
+
+    void addAnswer(Answer answer);
 }

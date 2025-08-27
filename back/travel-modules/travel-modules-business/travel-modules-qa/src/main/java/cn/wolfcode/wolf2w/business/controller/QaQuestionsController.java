@@ -1,5 +1,6 @@
 package cn.wolfcode.wolf2w.business.controller;
 
+import cn.wolfcode.wolf2w.business.api.domain.Answer;
 import cn.wolfcode.wolf2w.business.vo.QuestionAskVo;
 import cn.wolfcode.wolf2w.common.core.domain.R;
 import cn.wolfcode.wolf2w.common.security.annotation.InnerAuth;
@@ -30,11 +31,12 @@ public class QaQuestionsController {
         return R.ok();
     }
 
-    @PostMapping("/answer")
-    public R<?> addAnswer(@RequestBody QuestionAskVo questionAskVo) {
-
-        return R.ok();
-    }
+//    //添加回答
+//    @PostMapping("/answer")
+//    public R<?> addAnswer(@RequestBody Answer answer) {
+//       Answer addAnswer= qaQuestionsService.addAnswer(answer);
+//        return R.ok();
+//    }
 
 
 

@@ -24,6 +24,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -110,4 +112,16 @@ public class QaQuestionsServiceImpl extends ServiceImpl<QaQuestionsMapper, QaQue
             throw new ServiceException("参数不合法");
         }
     }
+//
+//    @Override
+//    public Answer addAnswer(Answer answer) {
+//        answer.setCreateTime(LocalDateTime.now());
+//        answer.setLikeCount(0);
+//        answer.setLikeCount(0);
+//        answer.setStatus(0);
+//        lambdaQuery().eq()
+//
+//
+//        return null;
+//    }
 }

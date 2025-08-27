@@ -37,7 +37,7 @@
             <div class="q-share cate-share">
               <a class="_js_showShare"><i class="q-share-icon"></i>分享</a>
               <div class="share-pop _j_share_pop hide clearfix"
-                   :data-title="detailData.detailDoubt ? detailData.detailDoubt.title : ''" data-qid="23792326">
+                   :data-title="detailData.detailDoubt ? detailData.detailDoubt : detailData.title" data-qid="23792326">
                 <a title="分享到新浪微博" class="sina _j_do_share" data-site="wb"></a>
                 <a title="分享到QQ空间" class="zone _j_do_share" data-site="qz"></a>
                 <a title="分享到微信" class="weixin _j_do_share_wx" data-site="wx"></a>
@@ -71,284 +71,9 @@
 
         <!-- 修改问题内容 -->
 
-        <!-- 邀请回答 -->
-        <div id="pagelet-block-67a20a03f78384b24c2d51175fe23d43" class="pagelet-block"
-             data-api=":qa:pagelet:InviteUserAnswer" data-params='{"mddid":10065,"qid":23792326,"anum":220,"flag":0}'
-             data-async="1" data-controller="/js/qa/InviteUserAnswer">
-          <div id="_js_invite_wrap" class="q-invite hide _js_q_related_block" data-qid="23792326" data-mddid="10065">
-            <b class="arrow"><i></i></b>
-            <div class="invite-search clearfix">
-              <div class="i-tit">邀请达人解答，更加快速精准地获得答案！</div>
-              <div class="i-search-box">
-                <div class="i-search">
-                  <input id="_js_search_friend_input" type="text" value="邀请好友回答问题" class="i-ipt"/>
-                  <input id="_js_search_friend_btn" type="button" value="" class="i-btn"/>
-                </div>
-                <div id="_j_seek_help_new_suggestul" class="i-search-sel hide" style="display: none"></div>
-                <span id="_js_invite_loading" class="ajax_loading hide">
-                  <i class="i1"></i>
-                  <i class="i2"></i>
-                  <i class="i3"></i>
-                </span>
-              </div>
-              <div class="i-rest">
-                <div class="i-rest-awatar _js_ava_list"></div>
-                <p><strong class="_js_invited_num">0</strong>人被邀请，还可邀请<span class="_js_can_invite_num">10</span>人
-                </p>
-              </div>
-            </div>
+        <!-- 邀请回答（静态示例，已移除） -->
 
-            <div class="invite-list">
-              <ul id="_js_invite_list">
-                <li class="hide _js_inviter_item _js_user61722409" style="display: list-item">
-                  <div class="i-awatar">
-                    <a href="/wenda/u/61722409/answer.html" title="bg1acr" target="_blank">
-                      <img
-                          src="https://p1-q.mafengwo.net/s8/M00/AB/01/wKgBpVUkiO6ANdHvAABcKuCtFAU84.jpeg?imageMogr2%2Fthumbnail%2F%2148x48r%2Fgravity%2FCenter%2Fcrop%2F%2148x48%2Fquality%2F90"
-                          alt="bg1acr" class="_js_user_ava"/>
-                    </a>
-                  </div>
-                  <div class="i-info">
-                    <a href="/qa/expert_apply.php?type=1" class="identity i-guide" target="_blank"><i>指路人</i></a>
-                    <a href="/qa/expert_apply.php?type=1&amp;flag=1" class="identity i-place"
-                       target="_blank"><i>目的地指路人</i></a>
-                    <a href="/wenda/u/61722409/answer.html" class="name" target="_blank">bg1acr</a>
-                    <a href="/rank/lv.php?uid=61722409" class="level" target="_blank">LV.44</a>
-                    <span>既然不可能说走就走，那就做一次蓄...</span>
-                  </div>
-                  <div class="i-intro">
-                    回答过&nbsp;2332&nbsp;个<strong>北京</strong>问题&nbsp;&nbsp;&nbsp;金牌回答&nbsp;205&nbsp;&nbsp;&nbsp;采纳率36%
-                  </div>
-                  <a class="i-btn _js_inviting" data-uid="61722409">邀请回答</a>
-                </li>
-                <li class="hide _js_inviter_item _js_user17399092" style="display: list-item">
-                  <div class="i-awatar">
-                    <a href="/wenda/u/17399092/answer.html" title="skyfifa" target="_blank">
-                      <img
-                          src="https://p1-q.mafengwo.net/s10/M00/98/D4/wKgBZ1jqJEeAUjO8AAqf157_1xo16.jpeg?imageMogr2%2Fthumbnail%2F%2148x48r%2Fgravity%2FCenter%2Fcrop%2F%2148x48%2Fquality%2F90"
-                          alt="skyfifa" class="_js_user_ava"/>
-                    </a>
-                  </div>
-                  <div class="i-info">
-                    <a href="/wenda/u/17399092/answer.html" class="name" target="_blank">skyfifa</a>
-                    <a href="/rank/lv.php?uid=17399092" class="level" target="_blank">LV.16</a>
-                    <span>行摄江湖，把碎片成为自己的记忆</span>
-                  </div>
-                  <div class="i-intro">回答过&nbsp;0&nbsp;个<strong>北京</strong>问题</div>
-                  <a class="i-btn _js_inviting" data-uid="17399092">邀请回答</a>
-                </li>
-                <li class="hide _js_inviter_item _js_user88180820" style="display: list-item">
-                  <div class="i-awatar">
-                    <a href="/wenda/u/88180820/answer.html" title="爱谦的小水果" target="_blank">
-                      <img
-                          src="https://p1-q.mafengwo.net/s19/M00/42/C6/CoNFv2KIqitWThysAAB8jIDanR4.jpeg?imageMogr2%2Fthumbnail%2F%2148x48r%2Fgravity%2FCenter%2Fcrop%2F%2148x48%2Fquality%2F90"
-                          alt="爱谦的小水果" class="_js_user_ava"/>
-                    </a>
-                  </div>
-                  <div class="i-info">
-                    <a href="/wenda/u/88180820/answer.html" class="name" target="_blank">爱谦的小水果</a>
-                    <a href="/rank/lv.php?uid=88180820" class="level" target="_blank">LV.45</a>
-                    <span>一个很喜欢很喜欢很喜欢薛之谦的小...</span>
-                  </div>
-                  <div class="i-intro">回答过&nbsp;596&nbsp;个<strong>北京</strong>问题</div>
-                  <a class="i-btn _js_inviting" data-uid="88180820">邀请回答</a>
-                </li>
-                <li class="hide _js_inviter_item _js_user40741128" style="display: list-item">
-                  <div class="i-awatar">
-                    <a href="/wenda/u/40741128/answer.html" title="咖喱圆圈圈" target="_blank">
-                      <img
-                          src="https://p1-q.mafengwo.net/s19/M00/2E/7C/CoNCvmL66kU5u4kIAACaWxLR4o4.jpeg?imageMogr2%2Fthumbnail%2F%2148x48r%2Fgravity%2FCenter%2Fcrop%2F%2148x48%2Fquality%2F90"
-                          alt="咖喱圆圈圈" class="_js_user_ava"/>
-                    </a>
-                  </div>
-                  <div class="i-info">
-                    <a href="/qa/expert_apply.php?type=1&amp;flag=1" class="identity i-place"
-                       target="_blank"><i>目的地指路人</i></a>
-                    <a href="/wenda/u/40741128/answer.html" class="name" target="_blank">咖喱圆圈圈</a>
-                    <a href="/rank/lv.php?uid=40741128" class="level" target="_blank">LV.35</a>
-                    <span>喜欢安排好一切再出发 也喜欢一切...</span>
-                  </div>
-                  <div class="i-intro">
-                    回答过&nbsp;348&nbsp;个<strong>北京</strong>问题&nbsp;&nbsp;&nbsp;金牌回答&nbsp;7&nbsp;&nbsp;&nbsp;采纳率19%
-                  </div>
-                  <a class="i-btn _js_inviting" data-uid="40741128">邀请回答</a>
-                </li>
-                <li class="hide _js_inviter_item _js_user33056144" style="display: list-item">
-                  <div class="i-awatar">
-                    <a href="/wenda/u/33056144/answer.html" title="欢小欢" target="_blank">
-                      <img
-                          src="https://p1-q.mafengwo.net/s12/M00/FC/51/wKgED1xJE5eABIbXAAwaQ-kcJfk11.jpeg?imageMogr2%2Fthumbnail%2F%2148x48r%2Fgravity%2FCenter%2Fcrop%2F%2148x48%2Fquality%2F90"
-                          alt="欢小欢" class="_js_user_ava"/>
-                    </a>
-                  </div>
-                  <div class="i-info">
-                    <a href="/wenda/u/33056144/answer.html" class="name" target="_blank">欢小欢</a>
-                    <a href="/rank/lv.php?uid=33056144" class="level" target="_blank">LV.45</a>
-                    <span>欢小欢</span>
-                  </div>
-                  <div class="i-intro">回答过&nbsp;365&nbsp;个<strong>北京</strong>问题</div>
-                  <a class="i-btn _js_inviting" data-uid="33056144">邀请回答</a>
-                </li>
-                <li class="hide _js_inviter_item _js_user19143224">
-                  <div class="i-awatar">
-                    <a href="/wenda/u/19143224/answer.html" title="布格子蘑菇" target="_blank">
-                      <img
-                          src="https://p1-q.mafengwo.net/s13/M00/23/5B/wKgEaVyW_CmAPVeXAAhtjWeqEuI60.jpeg?imageMogr2%2Fthumbnail%2F%2148x48r%2Fgravity%2FCenter%2Fcrop%2F%2148x48%2Fquality%2F90"
-                          alt="布格子蘑菇" class="_js_user_ava"/>
-                    </a>
-                  </div>
-                  <div class="i-info">
-                    <a href="/qa/expert_apply.php?type=1&amp;flag=1" class="identity i-place"
-                       target="_blank"><i>目的地指路人</i></a>
-                    <a href="/wenda/u/19143224/answer.html" class="name" target="_blank">布格子蘑菇</a>
-                    <a href="/rank/lv.php?uid=19143224" class="level" target="_blank">LV.33</a>
-                    <span>如果世界是一本书，旅行就是最好的...</span>
-                  </div>
-                  <div class="i-intro">回答过&nbsp;360&nbsp;个<strong>北京</strong>问题&nbsp;&nbsp;采纳率30%</div>
-                  <a class="i-btn _js_inviting" data-uid="19143224">邀请回答</a>
-                </li>
-                <li class="hide _js_inviter_item _js_user54860062">
-                  <div class="i-awatar">
-                    <a href="/wenda/u/54860062/answer.html" title="zq" target="_blank">
-                      <img
-                          src="https://p1-q.mafengwo.net/s12/M00/50/1D/wKgED1ub3VCAJogTAAAIro_37Fc12.jpeg?imageMogr2%2Fthumbnail%2F%2148x48r%2Fgravity%2FCenter%2Fcrop%2F%2148x48%2Fquality%2F90"
-                          alt="zq" class="_js_user_ava"/>
-                    </a>
-                  </div>
-                  <div class="i-info">
-                    <a href="/wenda/u/54860062/answer.html" class="name" target="_blank">zq</a>
-                    <a href="/rank/lv.php?uid=54860062" class="level" target="_blank">LV.45</a>
-                    <span>旅行让生活更美好</span>
-                  </div>
-                  <div class="i-intro">回答过&nbsp;443&nbsp;个<strong>北京</strong>问题</div>
-                  <a class="i-btn _js_inviting" data-uid="54860062">邀请回答</a>
-                </li>
-                <li class="hide _js_inviter_item _js_user61543860">
-                  <div class="i-awatar">
-                    <a href="/wenda/u/61543860/answer.html" title="Danny仔" target="_blank">
-                      <img
-                          src="https://p1-q.mafengwo.net/s15/M00/FF/CB/CoUBGV30-ViASvvyAAHE1ig3z9s60.jpeg?imageMogr2%2Fthumbnail%2F%2148x48r%2Fgravity%2FCenter%2Fcrop%2F%2148x48%2Fquality%2F90"
-                          alt="Danny仔" class="_js_user_ava"/>
-                    </a>
-                  </div>
-                  <div class="i-info">
-                    <a href="/wenda/u/61543860/answer.html" class="name" target="_blank">Danny仔</a>
-                    <a href="/rank/lv.php?uid=61543860" class="level" target="_blank">LV.30</a>
-                    <span>你曾是少年</span>
-                  </div>
-                  <div class="i-intro">
-                    回答过&nbsp;1&nbsp;个<strong>北京</strong>问题<span>|</span>写过&nbsp;1&nbsp;篇蜂首/宝藏<strong>北京</strong>游记
-                  </div>
-                  <a class="i-btn _js_inviting" data-uid="61543860">邀请回答</a>
-                </li>
-                <li class="hide _js_inviter_item _js_user52243168">
-                  <div class="i-awatar">
-                    <a href="/wenda/u/52243168/answer.html" title="渔夫" target="_blank">
-                      <img
-                          src="https://p1-q.mafengwo.net/s8/M00/C1/1C/wKgBpVYXmzSAH3d_AAJxQe2iy1Q21.jpeg?imageMogr2%2Fthumbnail%2F%2148x48r%2Fgravity%2FCenter%2Fcrop%2F%2148x48%2Fquality%2F90"
-                          alt="渔夫" class="_js_user_ava"/>
-                    </a>
-                  </div>
-                  <div class="i-info">
-                    <a href="/qa/expert_apply.php?type=1&amp;flag=1" class="identity i-place"
-                       target="_blank"><i>目的地指路人</i></a>
-                    <a href="/wenda/u/52243168/answer.html" class="name" target="_blank">渔夫</a>
-                    <a href="/rank/lv.php?uid=52243168" class="level" target="_blank">LV.30</a>
-                    <span></span>
-                  </div>
-                  <div class="i-intro">回答过&nbsp;1058&nbsp;个<strong>北京</strong>问题&nbsp;&nbsp;采纳率17%</div>
-                  <a class="i-btn _js_inviting" data-uid="52243168">邀请回答</a>
-                </li>
-                <li class="hide _js_inviter_item _js_user80150850">
-                  <div class="i-awatar">
-                    <a href="/wenda/u/80150850/answer.html" title="静猫猫" target="_blank">
-                      <img
-                          src="https://p1-q.mafengwo.net/s7/M00/18/04/wKgB6lT64GqADHS_AAGJNo7YnEc55.jpeg?imageMogr2%2Fthumbnail%2F%2148x48r%2Fgravity%2FCenter%2Fcrop%2F%2148x48%2Fquality%2F90"
-                          alt="静猫猫" class="_js_user_ava"/>
-                    </a>
-                  </div>
-                  <div class="i-info">
-                    <a href="/wenda/u/80150850/answer.html" class="name" target="_blank">静猫猫</a>
-                    <a href="/rank/lv.php?uid=80150850" class="level" target="_blank">LV.34</a>
-                    <span>跟着心去行走</span>
-                  </div>
-                  <div class="i-intro">回答过&nbsp;332&nbsp;个<strong>北京</strong>问题&nbsp;&nbsp;采纳率8%</div>
-                  <a class="i-btn _js_inviting" data-uid="80150850">邀请回答</a>
-                </li>
-                <li class="hide _js_inviter_item _js_user53294848">
-                  <div class="i-awatar">
-                    <a href="/wenda/u/53294848/answer.html" title="梦苏杭" target="_blank">
-                      <img
-                          src="https://p1-q.mafengwo.net/s17/M00/3B/F5/CoUBXl-ffISAAdPyAAT7eZWQwxo08.jpeg?imageMogr2%2Fthumbnail%2F%2148x48r%2Fgravity%2FCenter%2Fcrop%2F%2148x48%2Fquality%2F90"
-                          alt="梦苏杭" class="_js_user_ava"/>
-                    </a>
-                  </div>
-                  <div class="i-info">
-                    <a href="/wenda/u/53294848/answer.html" class="name" target="_blank">梦苏杭</a>
-                    <a href="/rank/lv.php?uid=53294848" class="level" target="_blank">LV.18</a>
-                    <span>专业北京地接</span>
-                  </div>
-                  <div class="i-intro">回答过&nbsp;385&nbsp;个<strong>北京</strong>问题</div>
-                  <a class="i-btn _js_inviting" data-uid="53294848">邀请回答</a>
-                </li>
-                <li class="hide _js_inviter_item _js_user39758761">
-                  <div class="i-awatar">
-                    <a href="/wenda/u/39758761/answer.html" title="圣心一颗" target="_blank">
-                      <img
-                          src="https://p1-q.mafengwo.net/s10/M00/94/CB/wKgBZ1hvcquAdeHeAA4hYwh-cTU31.jpeg?imageMogr2%2Fthumbnail%2F%2148x48r%2Fgravity%2FCenter%2Fcrop%2F%2148x48%2Fquality%2F90"
-                          alt="圣心一颗" class="_js_user_ava"/>
-                    </a>
-                  </div>
-                  <div class="i-info">
-                    <a href="/wenda/u/39758761/answer.html" class="name" target="_blank">圣心一颗</a>
-                    <a href="/rank/lv.php?uid=39758761" class="level" target="_blank">LV.45</a>
-                    <span>人之为善 一颗圣心</span>
-                  </div>
-                  <div class="i-intro">回答过&nbsp;318&nbsp;个<strong>北京</strong>问题&nbsp;&nbsp;采纳率3%</div>
-                  <a class="i-btn _js_inviting" data-uid="39758761">邀请回答</a>
-                </li>
-                <li class="hide _js_inviter_item _js_user64539615">
-                  <div class="i-awatar">
-                    <a href="/wenda/u/64539615/answer.html" title="刀刀" target="_blank">
-                      <img
-                          src="https://p1-q.mafengwo.net/s11/M00/33/7D/wKgBEFppZ32AbJ_2AACRAo2-aO457.jpeg?imageMogr2%2Fthumbnail%2F%2148x48r%2Fgravity%2FCenter%2Fcrop%2F%2148x48%2Fquality%2F90"
-                          alt="刀刀" class="_js_user_ava"/>
-                    </a>
-                  </div>
-                  <div class="i-info">
-                    <a href="/qa/expert_apply.php?type=1&amp;flag=1" class="identity i-place"
-                       target="_blank"><i>目的地指路人</i></a>
-                    <a href="/wenda/u/64539615/answer.html" class="name" target="_blank">刀刀</a>
-                    <a href="/rank/lv.php?uid=64539615" class="level" target="_blank">LV.45</a>
-                    <span>人生最好的旅行，就是在陌生的地方...</span>
-                  </div>
-                  <div class="i-intro">
-                    回答过&nbsp;34&nbsp;个<strong>北京</strong>问题&nbsp;&nbsp;采纳率32%<span>|</span>写过&nbsp;3&nbsp;篇蜂首/宝藏<strong>北京</strong>游记
-                  </div>
-                  <a class="i-btn _js_inviting" data-uid="64539615">邀请回答</a>
-                </li>
-              </ul>
-              <a id="_js_show_more_inviter" class="invite-more">点击加载更多达人...</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="qa-bar-wrap _j_qaBar hide" style="display: none">
-          <div class="qa-bar-content">
-            <div class="q-operate">
-              <span class="atten-num">6082浏览</span>
-              <span class="atten-num"><span class="_j_same_num">0</span>人关注</span>
-
-              <a class="btn-atten _j_same_question" rel="nofollow" data-status="1"><span>关注</span></a>
-
-              <a class="btn-answer _j_btn_goanswer" rel="nofollow">回答</a>
-            </div>
-            <div class="q-title">
-              <a href="/wenda/area-10065.html" target="_blank" class="location"><i></i>北京</a>
-              <h1>求一个小众 便宜 不网红 安全的小城旅游 求推荐！！！</h1>
-            </div>
-          </div>
-        </div>
+        <!-- qa-bar-wrap 静态占位（已移除） -->
       </div>
 
       <div class="answer-wrap">
@@ -360,9 +85,9 @@
                 v-for="(answerItem, i) in detailData.answerList" :key="i">
 
               <!--顶-->
-<!--             <div class="answer-side _js_answerAva">-->
-<!--                <a class="btn-ding _js_zan"><i></i><span data-real_num="0">100</span></a>-->
-<!--              </div>-->
+              <div class="answer-side _js_answerAva">
+             <a class="btn-ding _js_zan"><i></i><span data-real_num="0">100</span></a>
+             </div>
 
               <div class="answer-side _js_answerAva">
                 <a class="btn-ding _js_zan" @click="likeThisAnswer(answerItem)">
@@ -504,7 +229,7 @@ import {
   likeAnswer
 } from '@/composables/api/questions';
 import {ElMessage} from 'element-plus';
-import {getFollow, followOperate} from '~~/composables/api/friend';
+// import {getFollow, followOperate} from '~~/composables/api/friend';
 
 const {$message} = getCurrentInstance().appContext.config.globalProperties;//导入message模块
 const formState = reactive({contents: ''});
@@ -514,7 +239,7 @@ const router = useRouter();
 const detailData = ref(null);
 //console.log(route.params.id);
 const curUserInfo = ref(null);
-const attentionText = ref('关注');
+// const attentionText = ref('关注');
 
 
 const sendAnswer = () => {
@@ -537,7 +262,8 @@ const sendAnswer = () => {
 
   answer({
     questionId: route.params.id,
-    answerContent: formState.contents
+    content: formState.contents,
+    userId: curUserInfo.value ? curUserInfo.value.id : undefined
   }).then((res) => {
     ElMessage.success('提交回答成功')
     formState.contents = '';
@@ -571,16 +297,16 @@ onMounted(() => {
 
 
 // fixImgUrl 函数，注意替换 baseUrl 为你的实际域名
-function fixImgUrl(url: string): string {
-  if (!url) return ''
-  if (url.startsWith('http')) return url
-  const baseUrl = 'https://your-real-domain.com' // 换成你的域名
-  if (baseUrl.endsWith('/')) {
-    return url.startsWith('/') ? baseUrl + url.slice(1) : baseUrl + url
-  } else {
-    return url.startsWith('/') ? baseUrl + url : baseUrl + '/' + url
-  }
-}
+// function fixImgUrl(url: string): string {
+//   if (!url) return ''
+//   if (url.startsWith('http')) return url
+//   const baseUrl = 'https://your-real-domain.com' // 换成你的域名
+//   if (baseUrl.endsWith('/')) {
+//     return url.startsWith('/') ? baseUrl + url.slice(1) : baseUrl + url
+//   } else {
+//     return url.startsWith('/') ? baseUrl + url : baseUrl + '/' + url
+//   }
+// }
 
 
 function formatDate(timeStr: string): string {
@@ -665,8 +391,9 @@ const replyComment = (item) => {
   // console.log(item.id);
 
   answer({
-    questionId:item.id,
-    answerContent:item.comment
+    questionId: detailData.value ? detailData.value.id : undefined,
+    content: item.comment,
+    userId: curUserInfo.value ? curUserInfo.value.id : undefined
   }).then((res)=>{
     //alert('提交问题成功')
     ElMessage.success('回复成功');
@@ -1280,65 +1007,7 @@ const showAddComment = (item) => {
       }
     }
 
-    ._j_pager {
-      .ft {
-        margin: 20px 0;
-
-        .answer-more {
-          width: 100%;
-          height: 40px;
-          border-radius: 4px;
-          line-height: 40px;
-          text-align: center;
-
-          a {
-            display: block;
-            width: 100%;
-            height: 100%;
-            background-color: #efefef;
-            color: #666;
-
-            &:hover {
-              background-color: #fff5e5;
-              color: #192885;
-              text-decoration: none;
-
-              i {
-                background-position: 0 -347px;
-              }
-            }
-
-            i {
-              display: inline-block;
-              width: 10px;
-              height: 10px;
-              background: url(../../../assets/images/mfwask-2016sprite-2x_v3.png) no-repeat;
-              background-position: 0 -329px;
-              background-size: 50px 400px;
-              margin-left: 6px;
-            }
-          }
-        }
-
-        .answer-loading {
-          width: 100%;
-          height: 40px;
-          border-radius: 4px;
-          line-height: 40px;
-          text-align: center;
-          background-color: #fff5e5;
-          color: #192885;
-
-          i {
-            display: inline-block;
-            width: 22px;
-            height: 4px;
-            background: url(../../../assets/images/mfwask-2016loading.gif) no-repeat;
-            margin-left: 6px;
-          }
-        }
-      }
-    }
+    /* ._j_pager 样式未使用，已移除 */
 
     .answer-add {
       margin: 36px 0 10px;

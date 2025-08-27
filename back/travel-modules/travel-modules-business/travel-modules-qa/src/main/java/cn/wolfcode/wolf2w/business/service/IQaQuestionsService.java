@@ -1,5 +1,6 @@
 package cn.wolfcode.wolf2w.business.service;
 
+import cn.wolfcode.wolf2w.business.api.domain.Answer;
 import cn.wolfcode.wolf2w.business.api.domain.QaQuestions;
 import cn.wolfcode.wolf2w.business.query.QaQuestionsQuery;
 import cn.wolfcode.wolf2w.business.vo.QuestionAskVo;
@@ -23,4 +24,6 @@ public interface IQaQuestionsService extends IService<QaQuestions>{
     void addAsk(QuestionAskVo questionAskVo);
 
     QaQuestions getdetail(Long id);
+
+
 }

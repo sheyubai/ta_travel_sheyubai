@@ -77,7 +77,7 @@ public class Answer implements Serializable {
     private LocalDateTime createTime;
 
     // 是否收藏
-    private Boolean isCollect;
+    private Integer isCollect;
 
     // 回答封面图片地址
     private String coverUrl;
