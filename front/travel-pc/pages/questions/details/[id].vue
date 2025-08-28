@@ -84,11 +84,8 @@
             <li class="answer-item clearfix _j_answer_item _js_answer23794231" data-aid="23794231"
                 v-for="(answerItem, i) in detailData.answerList" :key="i">
 
-              <!--顶-->
-              <div class="answer-side _js_answerAva">
-             <a class="btn-ding _js_zan"><i></i><span data-real_num="0">100</span></a>
-             </div>
 
+                <!-- 点赞按钮 -->
               <div class="answer-side _js_answerAva">
                 <a class="btn-ding _js_zan" @click="likeThisAnswer(answerItem)">
                   <i></i>

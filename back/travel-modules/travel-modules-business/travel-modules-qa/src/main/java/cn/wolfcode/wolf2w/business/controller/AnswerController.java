@@ -52,7 +52,7 @@ public class AnswerController {
 
     @PostMapping("/like/{id}")
     public R<?> like(@PathVariable("id") Long id) {
-
+        answerService.
 
         return R.ok("1111");
     }

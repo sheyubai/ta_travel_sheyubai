@@ -90,5 +90,5 @@ export function getDraftDetail(id){
 
 
 export function likeAnswer(answerId) {
-  return request.post(`/qa/answer/like/${answerId}`);
+  return request.post(`/qa/qaAnswer/like/${answerId}`);
 }
